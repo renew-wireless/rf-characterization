@@ -1,0 +1,42 @@
+[Header]
+Product Name = Anritsu
+Soft Type = MX2690
+File Type = WAVEDATA
+Option File00 = *.wvd
+
+[Comment]
+Line1 = 
+Line2 = 
+Line3 = 
+
+[Wave Info]
+;IQproducer Version17.01
+Use Option File = *.wvd
+Note = LTE IQproducer Right Version
+Version = 7.05
+Enciphered Version = "6$+@i,YEn!8$w)IKg#3yW4._}A"
+License Name = LTE_IQproducer
+Enciphered License Name = "6$JGi,VEnA8$E)I#g#(=5{ZCI!-9U554R|/\"
+Package = LTE_FDD
+Enciphered Package = "Hiz E3F6`|>iS>=YBHZ.~/cJ=325Z"
+Pattern Name = E-TM_3-2_05M
+Sampling Rate = 15.360000000MHz
+RMS Value = 1157
+Peak Power = 5099
+SM Filter = Auto
+Spectrum = Normal
+Over Sampling = 2
+Interpolation = Auto
+Bandwidth = 4.515000MHz
+System Unit = 4Ts
+Data Points = 153600
+Frame Length = 153600
+Gap Length = 0
+Freq Offset = 0Hz
+AWGN Conversion Value = 0.00dB
+Marker1 = Frame Pulse
+Marker2 = Subframe Pulse
+Marker3 = OFDM Symbol Pulse
+Freq Switching Speed = Normal
+Internal FIR = Off
+Data Width = 16

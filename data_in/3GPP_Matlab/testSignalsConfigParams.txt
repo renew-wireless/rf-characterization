@@ -1,0 +1,75 @@
+===========================
+       -- QAM4 --
+===========================
+Modulation Order: 4
+Symbol Mapping: Gray
+Bit Source: PN9
+Number of input bits: 60000
+Output Symbol Rate: 1000 (fs = 1000 syms/sec)
+Filtering: None
+
+===========================
+     -- OFDM-4QAM --
+===========================
+FFT: 64
+Guard band subcarriers [6;5]
+Cyclic prefix len [16]
+No DC null inserted
+No Windowing
+OFDM Symbols: 100
+Transmit antennas: 1
+Subcarrier Spacing (Hz) 78125   (64 SC at 5MHz)
+Modulation Order: 4QAM
+Symbol Mapping: Gray
+Bit Source: PN9
+Filtering: None
+
+===========================
+     -- 802.11a/g --
+===========================
+20 MHz
+MCS: 2 (QPSK, 1/2 rate)
+PSDU length (bytes): 1000
+No. Packets: 1
+Idle time (s): 0
+Bit source: User-defined
+Input bits: randi([0,1], 1000,1)
+Scrambler init: 93
+Window transition time (s): 1e-7
+Filtering: None
+
+===========================
+     -- 802.11j --
+===========================
+10 MHz
+MCS: 2 (QPSK, 1/2 rate)
+PSDU length (bytes): 1000
+No. Packets: 1
+Idle time (s): 0
+Bit source: PN9
+Scrambler init: 93
+Window transition time (s): 1e-7
+Filtering: None
+
+===========================
+  -- LTE E-TM3.2 FDD --
+===========================
+Test Model 3.2
+BW: 5MHz
+Cell Identity 1
+Duplex Mode FDD
+Subframes 10
+Windowing (samples): 0
+Filtering: None
+
+
+===========================
+   -- LTE E-TM3.2 TDD--
+===========================
+Test Model 3.2
+BW: 5MHz
+Cell Identity 1
+Duplex Mode TDD
+Subframes 20
+Windowing (samples): 0
+Filtering: None

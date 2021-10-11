@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MX269908A VERSION="8.00.00">
+	<Common>
+		<BasicEdit>
+			<Attribute Name="SetupMode" Value="1"/>
+			<Attribute Name="TestMode" Value="1"/>
+			<Attribute Name="System" Value="LTE"/>
+			<Attribute Name="CarrierAggregation" Value="Intra-band"/>
+		</BasicEdit>
+	</Common>
+	<PHY>
+		<PatternSetting>
+			<Attribute Name="Package" Value="LTE_FDD"/>
+			<Attribute Name="Pattern" Value="E-TM_3-2_05M"/>
+			<Attribute Name="Comment1" Value=""/>
+			<Attribute Name="Comment2" Value=""/>
+			<Attribute Name="Comment3" Value=""/>
+		</PatternSetting>
+		<Band Number="0">
+			<ComponentCarrire Number="0">
+				<Attribute Name="CellID" Value="1"/>
+				<Attribute Name="Roll Off Length" Value="0"/>
+				<Attribute Name="BandWidth" Value="5"/>
+				<Attribute Name="Gain" Value="0.00"/>
+				<Attribute Name="Freq Offset" Value="0.000000"/>
+				<Attribute Name="Phase" Value="0"/>
+				<Attribute Name="Delay" Value="0"/>
+				<Attribute Name="E-TM" Value="6"/>
+				<Attribute Name="Filter Type" Value="Ideal"/>
+				<Attribute Name="Status" Value="ON"/>
+				<Uplink>
+					<Attribute Name="SRS" Value="OFF"/>
+					<Attribute Name="SRS Subframe Configuration" Value="0"/>
+					<Subframe>
+						<PUSCH>
+							<Attribute Name="Start Number of RB" Value="0"/>
+							<Attribute Name="RadioNetworkTemporaryIdentifierNRNTI" Value="0"/>
+							<Attribute Name="Modulation Scheme" Value="QPSK"/>
+							<UL-SCH>
+								<Attribute Name="TransportBlockSize" Value="0"/>
+								<Attribute Name="DataType" Value="PN9fix"/>
+							</UL-SCH>
+							<Demodulation_RS>
+								<Attribute Name="GroupHopping" Value="Disable"/>
+								<Attribute Name="SequenceHopping" Value="Disable"/>
+								<Attribute Name="n1_DMRS" Value="0"/>
+								<Attribute Name="n2_DMRS" Value="0"/>
+								<Attribute Name="DeltaSS" Value="0"/>
+							</Demodulation_RS>
+						</PUSCH>
+					</Subframe>
+				</Uplink>
+			</ComponentCarrire>
+			<ComponentCarrire Number="1"/>
+		</Band>
+	</PHY>
+</MX269908A>
